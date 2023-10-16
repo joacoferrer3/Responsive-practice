@@ -1,0 +1,29 @@
+.input-box {
+    position: relative;
+    background: #fff;
+    border-radius: 0.5em;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.txt {
+    text-align: justify;
+    background-color: rgb(244, 244, 244);
+}
+
+.btn-custom {
+    background-color: white;
+    text-align: left;
+    text-decoration: underline;
+    border: 2px solid rgb(227, 227, 227);
+    border-radius: 5px;
+}
+
+.opciones-buttons {
+    display: none;
+}
+
+#opc[data-toggle="opciones-buttons"] + .opciones-buttons {
+    display: block;
+}
+
+
